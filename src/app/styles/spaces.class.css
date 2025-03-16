@@ -1,0 +1,178 @@
+
+
+/** Padding */
+.padding-small {
+  padding: var(--small-gap);
+}
+.padding-t-small {
+  padding-top: var(--small-gap);
+}
+
+.padding-l-small {
+  padding-left: var(--small-gap);
+}
+
+.padding-r-small {
+  padding-right: var(--small-gap);
+}
+
+.padding-b-small {
+  padding-bottom: var(--small-gap);
+}
+
+/** P Large */
+.padding-t-larged {
+  padding-top: var(--larged-gap);
+}
+
+.padding-l-larged {
+  padding-left: var(--larged-gap);
+}
+
+.padding-r-larged {
+  padding-right: var(--larged-gap);
+}
+
+.padding-b-larged {
+  padding-bottom: var(--larged-gap);
+}
+
+/** M Large */
+.margin-t-larged {
+  margin-top: var(--larged-gap);
+}
+
+.margin-l-larged {
+  margin-left: var(--larged-gap);
+}
+
+.margin-r-larged {
+  margin-right: var(--larged-gap);
+}
+
+.margin-b-larged {
+  margin-bottom: var(--larged-gap);
+}
+
+/** P XL */
+.margin-t-xl {
+  margin-top: var(--xl-gap);
+}
+
+.padding-t-xl {
+  padding-top: var(--xl-gap);
+}
+
+.padding-l-xl {
+  padding-left: var(--xl-gap);
+}
+
+.padding-r-xl {
+  padding-right: var(--xl-gap);
+}
+
+.padding-b-xl {
+  padding-bottom: var(--xl-gap);
+}
+
+/** --48-gap */
+.padding-t-48 {
+  padding-top: var(--48-gap);
+}
+
+.padding-l-48 {
+  padding-left: var(--48-gap);
+}
+
+.padding-r-48 {
+  padding-right: var(--48-gap);
+}
+
+.padding-b-48 {
+  padding-bottom: var(--48-gap);
+}
+
+/** --16-gap */
+.padding-t-16 {
+  padding-top: var(--16-gap);
+}
+
+.padding-l-16 {
+  padding-left: var(--16-gap);
+}
+
+.padding-r-16 {
+  padding-right: var(--16-gap);
+}
+
+.padding-b-16 {
+  padding-bottom: var(--16-gap);
+}
+
+/** --12-gap */
+.padding-t-12 {
+  padding-top: var(--12-gap);
+}
+
+.padding-l-12 {
+  padding-left: var(--12-gap);
+}
+
+.padding-r-12 {
+  padding-right: var(--12-gap);
+}
+
+.padding-b-12 {
+  padding-bottom: var(--12-gap);
+}
+
+/** Margin 24px */
+.margin-t-24 {
+  margin-top: var(--24-gap);
+}
+
+.margin-l-24 {
+  margin-left: var(--24-gap);
+}
+
+.margin-r-24 {
+  margin-right: var(--24-gap);
+}
+
+.margin-b-24 {
+  margin-bottom: var(--24-gap);
+}
+
+/** Margin 40 */
+.margin-t-40 {
+  margin-top: var(--40-gap);
+}
+
+.margin-l-40 {
+  margin-left: var(--40-gap);
+}
+
+.margin-r-40 {
+  margin-right: var(--40-gap);
+}
+
+.margin-b-40 {
+  margin-bottom: var(--40-gap);
+}
+
+/** Margin 106 */
+.margin-t-107 {
+  margin-top: var(--107-gap);
+}
+
+.margin-l-107 {
+  margin-left: var(--107-gap);
+}
+
+.margin-r-107 {
+  margin-right: var(--107-gap);
+}
+
+.margin-b-107 {
+  margin-bottom: var(--107-gap);
+}

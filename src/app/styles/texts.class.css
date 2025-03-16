@@ -1,0 +1,23 @@
+.text--light-carmine-pink {
+  color: var(--light-carmine-pink);
+}
+
+.text--charleston-green {
+  color: var(--charleston-green);
+}
+
+.text--deep-mauve {
+  color: var(--deep-mauve);
+}
+
+.text--cadet-blue-crayola {
+  color: var(--cadet-blue-crayola);
+}
+
+.textsize--24 {
+  font-size: var(--24-gap);
+}
+
+.textsize--32 {
+  font-size: var(--larged-gap);
+}

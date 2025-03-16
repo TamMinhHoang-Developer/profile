@@ -1,0 +1,23 @@
+.gap--logo {
+  gap: var(--small-gap);
+}
+
+.gap--larged {
+  gap: var(--larged-gap);
+}
+
+.gap--24 {
+  gap: var(--24-gap);
+}
+
+.gap--9 {
+  gap: var(--9-gap);
+}
+
+.gap--10 {
+  gap: var(--10-gap);
+}
+
+.gap--8 {
+  gap: var(--small-gap);
+}

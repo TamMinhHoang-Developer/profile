@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import "./styles/texts.class.css";
+@import "./styles/containers.class.css";
+@import "./styles/gaps.class.css";
+@import "./styles/spaces.class.css";
+
+:root {
+  /** Color */
+  --background: var(--charleston-green);
+  --foreground: #171717;
+
+  --charleston-green: #282c33;
+  --light-carmine-pink: #e06b74;
+  --pistachio: #98C379;
+  --gold-crayola: #E5C07A;
+  --blue-jeans: #62AEEF;
+  --deep-mauve: #C778DD;
+  --maximum-blue: #55B6C2;
+  --cadet-blue-crayola: #ABB2BF;
+
+  /** Spaces */
+  --space-margin: 171px; 
+
+  /** Gap */
+  --small-gap: 8px;
+  --9-gap: 9px;
+  --10-gap: 10px;
+  --12-gap: 12px;
+  --16-gap: 16px;
+  --24-gap: 24px;
+  --larged-gap: 32px;
+  --40-gap: 40px;
+  --48-gap: 48px;
+  --xl-gap: 62px;
+  --107-gap: 107px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--charleston-green);
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: inherit;
+}

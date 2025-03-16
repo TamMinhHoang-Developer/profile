@@ -1,0 +1,9 @@
+.container-content {
+  margin-left: var(--space-margin);
+  margin-right: var(--space-margin);
+}
+
+.container-16 {
+  margin-left: var(--16-gap);
+  margin-right: var(--16-gap);
+}
