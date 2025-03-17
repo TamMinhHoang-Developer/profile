@@ -18,6 +18,10 @@
   gap: var(--10-gap);
 }
 
+.gap--16 {
+  gap: var(--16-gap);
+}
+
 .gap--8 {
   gap: var(--small-gap);
 }

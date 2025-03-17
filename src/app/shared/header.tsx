@@ -86,7 +86,7 @@ export default function Header() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ duration: 0.4 }}
-              className="w-full bg-[var(--charleston-green)] h-full text-white flex flex-col pl-[var(--16-gap)] pr-[var(--16-gap)]"
+              className="w-96 bg-[var(--charleston-green)] h-full text-white flex flex-col pl-[var(--16-gap)] pr-[var(--16-gap)]"
             >
               {/* Button đóng menu */}
               <div className="flex justify-between items-center padding-b-small padding-t-larged">
