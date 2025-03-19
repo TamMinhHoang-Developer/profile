@@ -179,15 +179,19 @@ export default function Home() {
         {TitleSectionWithLink("projects", "/projects")}
 
         <div className="margin-t-48">
-          <div className="grid md:grid-cols-3 gap--16 grid-cols-1">
+          <div className="grid xl:grid-cols-3 gap--16 grid-cols-1">
             {ProjectItem(
-              "ưefwe",
+              "https://i.pinimg.com/736x/ac/48/c1/ac48c1f5cdda7e06c93e9fa6d4e7d2d6.jpg",
               ["HTML", "SCSS", "Python", "Flask"],
               "ChertNodes",
-              "Minecraft servers hosting"
+              "Minecraft servers hosting",
+              true,
+              "fwefwef",
+              true,
+              "fwefwef"
             )}
             {ProjectItem(
-              "fwef",
+              "https://i.pinimg.com/736x/ff/35/f3/ff35f39361b15a296d10ed1a08f50321.jpg",
               [
                 "React",
                 "Express",
@@ -198,18 +202,23 @@ export default function Home() {
                 "Python",
                 "Flask",
               ],
-              "ewfwef",
-              "ewfwef"
+              "ProtectX",
+              "Discord anti-crash bot",
+              true,
+              "fwefwef"
             )}
             {ProjectItem(
-              "ưefwe",
+              "https://i.pinimg.com/736x/f1/c0/13/f1c013ffd2aa69debc7addd6d6c6981d.jpg",
               ["CSS", "Express", "Node.js"],
-              "ewfwef",
-              "ewfwef"
+              "Kahoot Answers Viewer",
+              "Get answers to your kahoot quiz",
+              true,
+              "fwefwef"
             )}
           </div>
         </div>
       </section>
+      
     </div>
   );
 }
