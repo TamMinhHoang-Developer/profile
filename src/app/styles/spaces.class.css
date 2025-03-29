@@ -158,7 +158,7 @@
   margin-bottom: var(--40-gap);
 }
 
-/** Margin 106 */
+/** Margin 107 */
 .margin-t-107 {
   margin-top: var(--107-gap);
 }
@@ -173,6 +173,23 @@
 
 .margin-b-107 {
   margin-bottom: var(--107-gap);
+}
+
+/** Margin 106 */
+.margin-t-106 {
+  margin-top: var(--106-gap);
+}
+
+.margin-l-106 {
+  margin-left: var(--106-gap);
+}
+
+.margin-r-106 {
+  margin-right: var(--106-gap);
+}
+
+.margin-b-106 {
+  margin-bottom: var(--106-gap);
 }
 
 /** Margin 112 */

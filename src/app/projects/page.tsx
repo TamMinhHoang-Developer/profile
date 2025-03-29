@@ -1,6 +1,11 @@
+"use client";
+
+import SplideCode from "../sections/home/SplineCode";
+
 export default function Projects() {
   return (
-    <div>
+    <div className="lg:ml-[var(--space-margin)] lg:mr-[var(--space-margin)] ml-[var(--16-gap)] mr-[var(--16-gap)] margin-t-xl ">
+      <SplideCode></SplideCode>
       <h1>Project Page</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic at nostrum
