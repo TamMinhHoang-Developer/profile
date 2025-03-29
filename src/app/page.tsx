@@ -5,8 +5,41 @@ import React from "react";
 import QuoteCard from "./sections/home/QuoteCard";
 import TitleSectionWithLink from "./sections/home/TitleSectionWithLink";
 import ProjectItem from "./sections/home/ProjectItem";
+import TitleSection from "./sections/home/TitleSection";
 
 export default function Home() {
+  const skillList = [
+    {
+      category: "Languages",
+      items: ["TypeScript", "Lua", "Python", "JavaScript"],
+    },
+    {
+      category: "Databases",
+      items: ["SQLite", "PostgreSQL", "Mongo"],
+    },
+    {
+      category: "Tools",
+      items: [
+        "VSCode",
+        "Neovim",
+        "Linux",
+        "Figma",
+        "XFCE",
+        "Arch",
+        "Git",
+        "Font Awesome",
+      ],
+    },
+    {
+      category: "Other",
+      items: ["HTML", "CSS", "EJS", "SCSS", "REST", "Jinja"],
+    },
+    {
+      category: "Frameworks",
+      items: ["React", "Vue", "Dismake", "Discord.js", "Flask", "Express.js"],
+    },
+  ];
+
   return (
     <div className="lg:ml-[var(--space-margin)] lg:mr-[var(--space-margin)] ml-[var(--16-gap)] mr-[var(--16-gap)] margin-t-xl ">
       {/** Main Screen */}
@@ -218,7 +251,38 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
+      <section className="margin-t-106">
+        {TitleSection("skills")}
+        <div className="margin-t-48">
+          <div className="flex flex-col md:flex-row">
+            <div className="flex-2/5">erferf</div>
+            <div className="flex-3/5">
+              <div className="grid grid-cols-1 gap-4 xl:grid-cols-3">
+                {skillList.map((item, index) => (
+                  <div
+                    key={index}
+                    className="border-1 border-[var(--cadet-blue-crayola)]"
+                  >
+                    <div className="padding-small border-b-1 border-[var(--cadet-blue-crayola)] font-semibold">
+                      {item.category}
+                    </div>
+                    <div className="flex flex-wrap p-[var(--small-gap)] gap-[var(--small-gap)] text--cadet-blue-crayola">
+                      {item.items.map((itemChild, index) => (
+                        <span key={index} className="border-b-2 border-transparent hover:border-b-2 hover:border-white hover:text-white">{itemChild}</span>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="margin-t-106">
+      {TitleSection("about-me")}
+      </section>
     </div>
   );
 }
